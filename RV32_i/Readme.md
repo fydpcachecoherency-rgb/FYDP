@@ -1,4 +1,5 @@
-RV32I Core Verification
+RV32I Core Verification:
+
 To verify the RV32I Core, run the RTL simulation using the provided `test_i.hex` file.
 The RTL simulation must generate:
 
