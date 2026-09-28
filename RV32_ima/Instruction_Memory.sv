@@ -7,7 +7,7 @@ module Instruction_Memory(input  logic [31: 0] addr, output logic [31: 0] instr 
         integer i;
             for (i = 0; i < 1024; i++) 
                 imem[i] = 32'h00000013; // NOP
-            $readmemh("MY_CODE.HEX", imem);
+        $readmemh("test_ima.HEX", imem);
     end
     
     // Read Combinational
