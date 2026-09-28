@@ -1,0 +1,774 @@
+# Compile of Program_Counter.sv was successful.
+# Compile of Instruction_Memory.sv was successful.
+# Compile of IF_ID_STAGE.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Immediate_Gen.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of Forwarding_Unit.sv was successful.
+# Compile of Hazard_Unit.sv was successful with warnings.
+# Compile of Data_Memory.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_Control.sv was successful.
+# Compile of ID_EX_STAGE.sv was successful.
+# Compile of EX_MEM_STAGE.sv was successful.
+# Compile of MEM_WB_STAGE.sv was successful.
+# Compile of Package.sv was successful.
+# Compile of RV32I_Core.sv was successful.
+# Compile of TEST_BENCH.sv was successful.
+# Compile of AMO_ALU.sv was successful.
+# Compile of AMO_UNIT.sv was successful.
+# Compile of test_bench_debug.sv was successful.
+# 20 compiles, 0 failed with no errors.
+# Compile of Program_Counter.sv was successful.
+# Compile of Instruction_Memory.sv was successful.
+# Compile of IF_ID_STAGE.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Immediate_Gen.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of Forwarding_Unit.sv was successful.
+# Compile of Hazard_Unit.sv failed with 5 errors.
+# Compile of Data_Memory.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_Control.sv was successful.
+# Compile of ID_EX_STAGE.sv was successful.
+# Compile of EX_MEM_STAGE.sv was successful.
+# Compile of MEM_WB_STAGE.sv was successful.
+# Compile of Package.sv was successful.
+# Compile of RV32I_Core.sv was successful.
+# Compile of TEST_BENCH.sv was successful.
+# Compile of AMO_ALU.sv was successful.
+# Compile of AMO_UNIT.sv was successful.
+# Compile of test_bench_debug.sv was successful.
+# 20 compiles, 1 failed with 5 errors.
+# Compile of Program_Counter.sv was successful.
+# Compile of Instruction_Memory.sv was successful.
+# Compile of IF_ID_STAGE.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Immediate_Gen.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of Forwarding_Unit.sv was successful.
+# Compile of Hazard_Unit.sv was successful with warnings.
+# Compile of Data_Memory.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_Control.sv was successful.
+# Compile of ID_EX_STAGE.sv was successful.
+# Compile of EX_MEM_STAGE.sv was successful.
+# Compile of MEM_WB_STAGE.sv was successful.
+# Compile of Package.sv was successful.
+# Compile of RV32I_Core.sv was successful.
+# Compile of TEST_BENCH.sv was successful.
+# Compile of AMO_ALU.sv was successful.
+# Compile of AMO_UNIT.sv was successful.
+# Compile of test_bench_debug.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.tb_verif
+# vsim -gui work.tb_verif 
+# Start time: 11:28:15 on Sep 25,2026
+# Loading sv_std.std
+# Loading work.tb_verif
+# Loading work.risc_v_pkg
+# Loading work.RV32I_Core_sv_unit
+# Loading work.RV32I_Core
+# Loading work.Program_Counter
+# Loading work.Instruction_Memory
+# Loading work.Control_Unit_sv_unit
+# Loading work.Control_Unit
+# Loading work.Immediate_Gen_sv_unit
+# Loading work.Immediate_Gen
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.ALU_Control_sv_unit
+# Loading work.ALU_Control
+# Loading work.Register_File
+# Loading work.Data_Memory
+# Loading work.AMO_ALU_sv_unit
+# Loading work.AMO_ALU
+# Loading work.AMO_UNIT_sv_unit
+# Loading work.AMO_UNIT
+# Loading work.IF_ID_STAGE_sv_unit
+# Loading work.IF_ID_STAGE
+# Loading work.ID_EX_STAGE_sv_unit
+# Loading work.ID_EX_STAGE
+# Loading work.EX_MEM_STAGE_sv_unit
+# Loading work.EX_MEM_STAGE
+# Loading work.MEM_WB_STAGE_sv_unit
+# Loading work.MEM_WB_STAGE
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Unit
+run -all
+# 
+# ======================================================
+#       RV32IMA SPIKE vs RTL VERIFICATION
+# ======================================================
+# 
+# 
+# ================================================================
+#                     RV32IMA PERFORMANCE MATRIX
+# ================================================================
+# +------------------------------+------------------------------+
+# | Metric                       | Value                        |
+# +------------------------------+------------------------------+
+# | Total cycles                 | 324                          |
+# | Architectural instructions   | 303                          |
+# | Retirement trace entries     | 303                          |
+# | Memory operations            | 150                          |
+# | Loads                        | 45                           |
+# | Stores                       | 105                          |
+# | Branches                     | 6                            |
+# | Taken branches               | 6                            |
+# | Jumps                        | 4                            |
+# | M-ext (MUL*) instructions    | 34                           |
+# | A-ext (atomic) instructions  | 20                           |
+# |   LR.W                       | 2                            |
+# |   SC.W                       | 3                            |
+# | Stall cycles                 | 0                            |
+# | Flush events                 | 10                           |
+# | CPI                          | 1.0693                       |
+# | IPC                          | 0.9352                       |
+# +------------------------------+------------------------------+
+# | STATUS                       | COMPLETED                    |
+# +------------------------------+------------------------------+
+# ================================================================
+# 
+# Trace files generated:
+#   rtl_retire.csv
+#   rtl_memory.csv
+#   rtl_control.csv
+#   rtl_performance.csv
+# 
+# ** Note: $finish    : C:/Users/zaidk_0h0x8o0/Desktop/RISC_V_CORE/TEST_BENCH.sv(675)
+#    Time: 3290 ns  Iteration: 1  Instance: /tb_verif
+# 1
+# Break in Task finish_simulation at C:/Users/zaidk_0h0x8o0/Desktop/RISC_V_CORE/TEST_BENCH.sv line 675
+# Compile of Program_Counter.sv was successful.
+# Compile of Instruction_Memory.sv was successful.
+# Compile of IF_ID_STAGE.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Immediate_Gen.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of Forwarding_Unit.sv was successful.
+# Compile of Hazard_Unit.sv was successful with warnings.
+# Compile of Data_Memory.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_Control.sv was successful.
+# Compile of ID_EX_STAGE.sv was successful.
+# Compile of EX_MEM_STAGE.sv was successful.
+# Compile of MEM_WB_STAGE.sv was successful.
+# Compile of Package.sv was successful.
+# Compile of RV32I_Core.sv was successful.
+# Compile of TEST_BENCH.sv was successful.
+# Compile of AMO_ALU.sv was successful.
+# Compile of AMO_UNIT.sv was successful.
+# Compile of test_bench_debug.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "rv32ima_verification.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_verif
+# Loading work.risc_v_pkg
+# Loading work.RV32I_Core_sv_unit
+# Loading work.RV32I_Core
+# Loading work.Program_Counter
+# Loading work.Instruction_Memory
+# Loading work.Control_Unit_sv_unit
+# Loading work.Control_Unit
+# Loading work.Immediate_Gen_sv_unit
+# Loading work.Immediate_Gen
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.ALU_Control_sv_unit
+# Loading work.ALU_Control
+# Loading work.Register_File
+# Loading work.Data_Memory
+# Loading work.AMO_ALU_sv_unit
+# Loading work.AMO_ALU
+# Loading work.AMO_UNIT_sv_unit
+# Loading work.AMO_UNIT
+# Loading work.IF_ID_STAGE_sv_unit
+# Loading work.IF_ID_STAGE
+# Loading work.ID_EX_STAGE_sv_unit
+# Loading work.ID_EX_STAGE
+# Loading work.EX_MEM_STAGE_sv_unit
+# Loading work.EX_MEM_STAGE
+# Loading work.MEM_WB_STAGE_sv_unit
+# Loading work.MEM_WB_STAGE
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Unit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# ======================================================
+#       RV32IMA SPIKE vs RTL VERIFICATION
+# ======================================================
+# 
+# 
+# ================================================================
+#                     RV32IMA PERFORMANCE MATRIX
+# ================================================================
+# +------------------------------+------------------------------+
+# | Metric                       | Value                        |
+# +------------------------------+------------------------------+
+# | Total cycles                 | 324                          |
+# | Architectural instructions   | 303                          |
+# | Retirement trace entries     | 303                          |
+# | Memory operations            | 150                          |
+# | Loads                        | 45                           |
+# | Stores                       | 105                          |
+# | Branches                     | 6                            |
+# | Taken branches               | 6                            |
+# | Jumps                        | 4                            |
+# | M-ext (MUL*) instructions    | 34                           |
+# | A-ext (atomic) instructions  | 20                           |
+# |   LR.W                       | 2                            |
+# |   SC.W                       | 3                            |
+# | Stall cycles                 | 0                            |
+# | Flush events                 | 10                           |
+# | CPI                          | 1.0693                       |
+# | IPC                          | 0.9352                       |
+# +------------------------------+------------------------------+
+# | STATUS                       | COMPLETED                    |
+# +------------------------------+------------------------------+
+# ================================================================
+# 
+# Trace files generated:
+#   rtl_retire.csv
+#   rtl_memory.csv
+#   rtl_control.csv
+#   rtl_performance.csv
+# 
+# ** Note: $finish    : C:/Users/zaidk_0h0x8o0/Desktop/RISC_V_CORE/TEST_BENCH.sv(675)
+#    Time: 3290 ns  Iteration: 1  Instance: /tb_verif
+# 1
+# Break in Task finish_simulation at C:/Users/zaidk_0h0x8o0/Desktop/RISC_V_CORE/TEST_BENCH.sv line 675
+# Compile of Program_Counter.sv was successful.
+# Compile of Instruction_Memory.sv was successful.
+# Compile of IF_ID_STAGE.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Immediate_Gen.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of Forwarding_Unit.sv was successful.
+# Compile of Hazard_Unit.sv was successful with warnings.
+# Compile of Data_Memory.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_Control.sv was successful.
+# Compile of ID_EX_STAGE.sv was successful.
+# Compile of EX_MEM_STAGE.sv was successful.
+# Compile of MEM_WB_STAGE.sv was successful.
+# Compile of Package.sv was successful.
+# Compile of RV32I_Core.sv was successful.
+# Compile of TEST_BENCH.sv was successful.
+# Compile of AMO_ALU.sv was successful.
+# Compile of AMO_UNIT.sv was successful.
+# Compile of test_bench_debug.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "rv32ima_verification.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_verif
+# Loading work.risc_v_pkg
+# Loading work.RV32I_Core_sv_unit
+# Loading work.RV32I_Core
+# Loading work.Program_Counter
+# Loading work.Instruction_Memory
+# Loading work.Control_Unit_sv_unit
+# Loading work.Control_Unit
+# Loading work.Immediate_Gen_sv_unit
+# Loading work.Immediate_Gen
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.ALU_Control_sv_unit
+# Loading work.ALU_Control
+# Loading work.Register_File
+# Loading work.Data_Memory
+# Loading work.AMO_ALU_sv_unit
+# Loading work.AMO_ALU
+# Loading work.AMO_UNIT_sv_unit
+# Loading work.AMO_UNIT
+# Loading work.IF_ID_STAGE_sv_unit
+# Loading work.IF_ID_STAGE
+# Loading work.ID_EX_STAGE_sv_unit
+# Loading work.ID_EX_STAGE
+# Loading work.EX_MEM_STAGE_sv_unit
+# Loading work.EX_MEM_STAGE
+# Loading work.MEM_WB_STAGE_sv_unit
+# Loading work.MEM_WB_STAGE
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Unit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# ======================================================
+#       RV32IMA SPIKE vs RTL VERIFICATION
+# ======================================================
+# 
+# 
+# ================================================================
+#                     RV32IMA PERFORMANCE MATRIX
+# ================================================================
+# +------------------------------+------------------------------+
+# | Metric                       | Value                        |
+# +------------------------------+------------------------------+
+# | Total cycles                 | 324                          |
+# | Architectural instructions   | 303                          |
+# | Retirement trace entries     | 303                          |
+# | Memory operations            | 150                          |
+# | Loads                        | 45                           |
+# | Stores                       | 105                          |
+# | Branches                     | 6                            |
+# | Taken branches               | 6                            |
+# | Jumps                        | 4                            |
+# | M-ext (MUL*) instructions    | 34                           |
+# | A-ext (atomic) instructions  | 20                           |
+# |   LR.W                       | 2                            |
+# |   SC.W                       | 3                            |
+# | Stall cycles                 | 0                            |
+# | Flush events                 | 10                           |
+# | CPI                          | 1.0693                       |
+# | IPC                          | 0.9352                       |
+# +------------------------------+------------------------------+
+# | STATUS                       | COMPLETED                    |
+# +------------------------------+------------------------------+
+# ================================================================
+# 
+# Trace files generated:
+#   rtl_retire.csv
+#   rtl_memory.csv
+#   rtl_control.csv
+#   rtl_performance.csv
+# 
+# ** Note: $finish    : C:/Users/zaidk_0h0x8o0/Desktop/RISC_V_CORE/TEST_BENCH.sv(675)
+#    Time: 3290 ns  Iteration: 1  Instance: /tb_verif
+# 1
+# Break in Task finish_simulation at C:/Users/zaidk_0h0x8o0/Desktop/RISC_V_CORE/TEST_BENCH.sv line 675
+# Compile of Program_Counter.sv was successful.
+# Compile of Instruction_Memory.sv was successful.
+# Compile of IF_ID_STAGE.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Immediate_Gen.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of Forwarding_Unit.sv was successful.
+# Compile of Hazard_Unit.sv was successful with warnings.
+# Compile of Data_Memory.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_Control.sv was successful.
+# Compile of ID_EX_STAGE.sv was successful.
+# Compile of EX_MEM_STAGE.sv was successful.
+# Compile of MEM_WB_STAGE.sv was successful.
+# Compile of Package.sv was successful.
+# Compile of RV32I_Core.sv was successful.
+# Compile of TEST_BENCH.sv was successful.
+# Compile of AMO_ALU.sv was successful.
+# Compile of AMO_UNIT.sv was successful.
+# Compile of test_bench_debug.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "rv32ima_verification.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_verif
+# Loading work.risc_v_pkg
+# Loading work.RV32I_Core_sv_unit
+# Loading work.RV32I_Core
+# Loading work.Program_Counter
+# Loading work.Instruction_Memory
+# Loading work.Control_Unit_sv_unit
+# Loading work.Control_Unit
+# Loading work.Immediate_Gen_sv_unit
+# Loading work.Immediate_Gen
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.ALU_Control_sv_unit
+# Loading work.ALU_Control
+# Loading work.Register_File
+# Loading work.Data_Memory
+# Loading work.AMO_ALU_sv_unit
+# Loading work.AMO_ALU
+# Loading work.AMO_UNIT_sv_unit
+# Loading work.AMO_UNIT
+# Loading work.IF_ID_STAGE_sv_unit
+# Loading work.IF_ID_STAGE
+# Loading work.ID_EX_STAGE_sv_unit
+# Loading work.ID_EX_STAGE
+# Loading work.EX_MEM_STAGE_sv_unit
+# Loading work.EX_MEM_STAGE
+# Loading work.MEM_WB_STAGE_sv_unit
+# Loading work.MEM_WB_STAGE
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Unit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# ======================================================
+#       RV32IMA SPIKE vs RTL VERIFICATION
+# ======================================================
+# 
+# 
+# ================================================================
+#                     RV32IMA PERFORMANCE MATRIX
+# ================================================================
+# +------------------------------+------------------------------+
+# | Metric                       | Value                        |
+# +------------------------------+------------------------------+
+# | Total cycles                 | 324                          |
+# | Architectural instructions   | 303                          |
+# | Retirement trace entries     | 303                          |
+# | Memory operations            | 150                          |
+# | Loads                        | 45                           |
+# | Stores                       | 105                          |
+# | Branches                     | 6                            |
+# | Taken branches               | 6                            |
+# | Jumps                        | 4                            |
+# | M-ext (MUL*) instructions    | 34                           |
+# | A-ext (atomic) instructions  | 20                           |
+# |   LR.W                       | 2                            |
+# |   SC.W                       | 3                            |
+# | Stall cycles                 | 0                            |
+# | Flush events                 | 10                           |
+# | CPI                          | 1.0693                       |
+# | IPC                          | 0.9352                       |
+# +------------------------------+------------------------------+
+# | STATUS                       | COMPLETED                    |
+# +------------------------------+------------------------------+
+# ================================================================
+# 
+# Trace files generated:
+#   rtl_retire.csv
+#   rtl_memory.csv
+#   rtl_control.csv
+#   rtl_performance.csv
+# 
+# ** Note: $finish    : C:/Users/zaidk_0h0x8o0/Desktop/RISC_V_CORE/TEST_BENCH.sv(675)
+#    Time: 3290 ns  Iteration: 1  Instance: /tb_verif
+# 1
+# Break in Task finish_simulation at C:/Users/zaidk_0h0x8o0/Desktop/RISC_V_CORE/TEST_BENCH.sv line 675
+# Compile of Program_Counter.sv was successful.
+# Compile of Instruction_Memory.sv was successful.
+# Compile of IF_ID_STAGE.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Immediate_Gen.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of Forwarding_Unit.sv was successful.
+# Compile of Hazard_Unit.sv was successful with warnings.
+# Compile of Data_Memory.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_Control.sv was successful.
+# Compile of ID_EX_STAGE.sv was successful.
+# Compile of EX_MEM_STAGE.sv was successful.
+# Compile of MEM_WB_STAGE.sv was successful.
+# Compile of Package.sv was successful.
+# Compile of RV32I_Core.sv was successful.
+# Compile of TEST_BENCH.sv was successful.
+# Compile of AMO_ALU.sv was successful.
+# Compile of AMO_UNIT.sv failed with 2 errors.
+# Compile of test_bench_debug.sv was successful.
+# 20 compiles, 1 failed with 2 errors.
+quit -sim
+# End time: 11:49:20 on Sep 25,2026, Elapsed time: 0:21:05
+# Errors: 0, Warnings: 2
+# Compile of Program_Counter.sv was successful.
+# Compile of Instruction_Memory.sv was successful.
+# Compile of IF_ID_STAGE.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Immediate_Gen.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of Forwarding_Unit.sv was successful.
+# Compile of Hazard_Unit.sv was successful with warnings.
+# Compile of Data_Memory.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_Control.sv was successful.
+# Compile of ID_EX_STAGE.sv was successful.
+# Compile of EX_MEM_STAGE.sv was successful.
+# Compile of MEM_WB_STAGE.sv was successful.
+# Compile of Package.sv was successful.
+# Compile of RV32I_Core.sv was successful.
+# Compile of TEST_BENCH.sv was successful.
+# Compile of AMO_ALU.sv was successful.
+# Compile of AMO_UNIT.sv failed with 2 errors.
+# Compile of test_bench_debug.sv was successful.
+# 20 compiles, 1 failed with 2 errors.
+# Compile of Program_Counter.sv was successful.
+# Compile of Instruction_Memory.sv was successful.
+# Compile of IF_ID_STAGE.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Immediate_Gen.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of Forwarding_Unit.sv was successful.
+# Compile of Hazard_Unit.sv was successful with warnings.
+# Compile of Data_Memory.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_Control.sv was successful.
+# Compile of ID_EX_STAGE.sv was successful.
+# Compile of EX_MEM_STAGE.sv was successful.
+# Compile of MEM_WB_STAGE.sv was successful.
+# Compile of Package.sv was successful.
+# Compile of RV32I_Core.sv was successful.
+# Compile of TEST_BENCH.sv was successful.
+# Compile of AMO_ALU.sv was successful.
+# Compile of AMO_UNIT.sv was successful.
+# Compile of test_bench_debug.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -gui work.tb_verif
+# vsim -gui work.tb_verif 
+# Start time: 11:51:37 on Sep 25,2026
+# Loading sv_std.std
+# Loading work.tb_verif
+# Loading work.risc_v_pkg
+# Loading work.RV32I_Core_sv_unit
+# Loading work.RV32I_Core
+# Loading work.Program_Counter
+# Loading work.Instruction_Memory
+# Loading work.Control_Unit_sv_unit
+# Loading work.Control_Unit
+# Loading work.Immediate_Gen_sv_unit
+# Loading work.Immediate_Gen
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.ALU_Control_sv_unit
+# Loading work.ALU_Control
+# Loading work.Register_File
+# Loading work.Data_Memory
+# Loading work.AMO_ALU_sv_unit
+# Loading work.AMO_ALU
+# Loading work.AMO_UNIT_sv_unit
+# Loading work.AMO_UNIT
+# Loading work.IF_ID_STAGE_sv_unit
+# Loading work.IF_ID_STAGE
+# Loading work.ID_EX_STAGE_sv_unit
+# Loading work.ID_EX_STAGE
+# Loading work.EX_MEM_STAGE_sv_unit
+# Loading work.EX_MEM_STAGE
+# Loading work.MEM_WB_STAGE_sv_unit
+# Loading work.MEM_WB_STAGE
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Unit
+# Compile of Program_Counter.sv was successful.
+# Compile of Instruction_Memory.sv was successful.
+# Compile of IF_ID_STAGE.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Immediate_Gen.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of Forwarding_Unit.sv was successful.
+# Compile of Hazard_Unit.sv was successful with warnings.
+# Compile of Data_Memory.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_Control.sv was successful.
+# Compile of ID_EX_STAGE.sv was successful.
+# Compile of EX_MEM_STAGE.sv was successful.
+# Compile of MEM_WB_STAGE.sv was successful.
+# Compile of Package.sv was successful.
+# Compile of RV32I_Core.sv was successful.
+# Compile of TEST_BENCH.sv was successful.
+# Compile of AMO_ALU.sv was successful.
+# Compile of AMO_UNIT.sv was successful.
+# Compile of test_bench_debug.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_verif
+# Loading work.risc_v_pkg
+# Loading work.RV32I_Core_sv_unit
+# Loading work.RV32I_Core
+# Loading work.Program_Counter
+# Loading work.Instruction_Memory
+# Loading work.Control_Unit_sv_unit
+# Loading work.Control_Unit
+# Loading work.Immediate_Gen_sv_unit
+# Loading work.Immediate_Gen
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.ALU_Control_sv_unit
+# Loading work.ALU_Control
+# Loading work.Register_File
+# Loading work.Data_Memory
+# Loading work.AMO_ALU_sv_unit
+# Loading work.AMO_ALU
+# Loading work.AMO_UNIT_sv_unit
+# Loading work.AMO_UNIT
+# Loading work.IF_ID_STAGE_sv_unit
+# Loading work.IF_ID_STAGE
+# Loading work.ID_EX_STAGE_sv_unit
+# Loading work.ID_EX_STAGE
+# Loading work.EX_MEM_STAGE_sv_unit
+# Loading work.EX_MEM_STAGE
+# Loading work.MEM_WB_STAGE_sv_unit
+# Loading work.MEM_WB_STAGE
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Unit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# ======================================================
+#       RV32IMA SPIKE vs RTL VERIFICATION
+# ======================================================
+# 
+# 
+# ================================================================
+#                     RV32IMA PERFORMANCE MATRIX
+# ================================================================
+# +------------------------------+------------------------------+
+# | Metric                       | Value                        |
+# +------------------------------+------------------------------+
+# | Total cycles                 | 324                          |
+# | Architectural instructions   | 303                          |
+# | Retirement trace entries     | 303                          |
+# | Memory operations            | 150                          |
+# | Loads                        | 45                           |
+# | Stores                       | 105                          |
+# | Branches                     | 6                            |
+# | Taken branches               | 6                            |
+# | Jumps                        | 4                            |
+# | M-ext (MUL*) instructions    | 34                           |
+# | A-ext (atomic) instructions  | 20                           |
+# |   LR.W                       | 2                            |
+# |   SC.W                       | 3                            |
+# | Stall cycles                 | 0                            |
+# | Flush events                 | 10                           |
+# | CPI                          | 1.0693                       |
+# | IPC                          | 0.9352                       |
+# +------------------------------+------------------------------+
+# | STATUS                       | COMPLETED                    |
+# +------------------------------+------------------------------+
+# ================================================================
+# 
+# Trace files generated:
+#   rtl_retire.csv
+#   rtl_memory.csv
+#   rtl_control.csv
+#   rtl_performance.csv
+# 
+# ** Note: $finish    : C:/Users/zaidk_0h0x8o0/Desktop/RISC_V_CORE/TEST_BENCH.sv(675)
+#    Time: 3290 ns  Iteration: 1  Instance: /tb_verif
+# 1
+# Break in Task finish_simulation at C:/Users/zaidk_0h0x8o0/Desktop/RISC_V_CORE/TEST_BENCH.sv line 675
+# Compile of Program_Counter.sv was successful.
+# Compile of Instruction_Memory.sv was successful.
+# Compile of IF_ID_STAGE.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Immediate_Gen.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of Forwarding_Unit.sv was successful.
+# Compile of Hazard_Unit.sv was successful with warnings.
+# Compile of Data_Memory.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_Control.sv was successful.
+# Compile of ID_EX_STAGE.sv was successful.
+# Compile of EX_MEM_STAGE.sv was successful.
+# Compile of MEM_WB_STAGE.sv was successful.
+# Compile of Package.sv was successful.
+# Compile of RV32I_Core.sv was successful.
+# Compile of TEST_BENCH.sv was successful.
+# Compile of AMO_ALU.sv was successful.
+# Compile of AMO_UNIT.sv was successful.
+# Compile of test_bench_debug.sv was successful.
+# 20 compiles, 0 failed with no errors.
+# Compile of Program_Counter.sv was successful.
+# Compile of Instruction_Memory.sv was successful.
+# Compile of IF_ID_STAGE.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of Immediate_Gen.sv was successful.
+# Compile of Control_Unit.sv was successful.
+# Compile of Forwarding_Unit.sv was successful.
+# Compile of Hazard_Unit.sv was successful with warnings.
+# Compile of Data_Memory.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_Control.sv was successful.
+# Compile of ID_EX_STAGE.sv was successful.
+# Compile of EX_MEM_STAGE.sv was successful.
+# Compile of MEM_WB_STAGE.sv was successful.
+# Compile of Package.sv was successful.
+# Compile of RV32I_Core.sv was successful.
+# Compile of TEST_BENCH.sv was successful.
+# Compile of AMO_ALU.sv was successful.
+# Compile of AMO_UNIT.sv was successful.
+# Compile of test_bench_debug.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "rv32ima_verification.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_verif
+# Loading work.risc_v_pkg
+# Loading work.RV32I_Core_sv_unit
+# Loading work.RV32I_Core
+# Loading work.Program_Counter
+# Loading work.Instruction_Memory
+# Loading work.Control_Unit_sv_unit
+# Loading work.Control_Unit
+# Loading work.Immediate_Gen_sv_unit
+# Loading work.Immediate_Gen
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.ALU_Control_sv_unit
+# Loading work.ALU_Control
+# Loading work.Register_File
+# Loading work.Data_Memory
+# Loading work.AMO_ALU_sv_unit
+# Loading work.AMO_ALU
+# Loading work.AMO_UNIT_sv_unit
+# Loading work.AMO_UNIT
+# Loading work.IF_ID_STAGE_sv_unit
+# Loading work.IF_ID_STAGE
+# Loading work.ID_EX_STAGE_sv_unit
+# Loading work.ID_EX_STAGE
+# Loading work.EX_MEM_STAGE_sv_unit
+# Loading work.EX_MEM_STAGE
+# Loading work.MEM_WB_STAGE_sv_unit
+# Loading work.MEM_WB_STAGE
+# Loading work.Forwarding_Unit
+# Loading work.Hazard_Unit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# ======================================================
+#       RV32IMA SPIKE vs RTL VERIFICATION
+# ======================================================
+# 
+# 
+# ================================================================
+#                     RV32IMA PERFORMANCE MATRIX
+# ================================================================
+# +------------------------------+------------------------------+
+# | Metric                       | Value                        |
+# +------------------------------+------------------------------+
+# | Total cycles                 | 324                          |
+# | Architectural instructions   | 303                          |
+# | Retirement trace entries     | 303                          |
+# | Memory operations            | 150                          |
+# | Loads                        | 45                           |
+# | Stores                       | 105                          |
+# | Branches                     | 6                            |
+# | Taken branches               | 6                            |
+# | Jumps                        | 4                            |
+# | M-ext (MUL*) instructions    | 34                           |
+# | A-ext (atomic) instructions  | 20                           |
+# |   LR.W                       | 2                            |
+# |   SC.W                       | 3                            |
+# | Stall cycles                 | 0                            |
+# | Flush events                 | 10                           |
+# | CPI                          | 1.0693                       |
+# | IPC                          | 0.9352                       |
+# +------------------------------+------------------------------+
+# | STATUS                       | COMPLETED                    |
+# +------------------------------+------------------------------+
+# ================================================================
+# 
+# Trace files generated:
+#   rtl_retire.csv
+#   rtl_memory.csv
+#   rtl_control.csv
+#   rtl_performance.csv
+# 
+# ** Note: $finish    : C:/Users/zaidk_0h0x8o0/Desktop/RISC_V_CORE/TEST_BENCH.sv(675)
+#    Time: 3290 ns  Iteration: 1  Instance: /tb_verif
+# 1
+# Break in Task finish_simulation at C:/Users/zaidk_0h0x8o0/Desktop/RISC_V_CORE/TEST_BENCH.sv line 675
+# End time: 12:22:46 on Sep 25,2026, Elapsed time: 0:31:09
+# Errors: 0, Warnings: 1
